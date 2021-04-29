@@ -3,11 +3,15 @@ This project is/will be a indirectly connected project of [Cybersecurity Dockerf
 ![SneakAttack](/img/SneakAttack-Banner.png)
 
 Docker Container for Penetration Testing
+ - Will Include a lot of tools that are not known, but efficient. 
+
 
 ## To Do
 - [ ] Add 5 tools for each section Before First Image
 - [ ] Setup Docker Hub Repo 
 - [ ] Setup up Module build for Each Section
+- [ ] Add a fullset of security tools for each Section
+- [ ] Develop Custom Distro, which will be called `SneakAttack OS`
 
 ## Tools to Add
 
