@@ -11,6 +11,7 @@ Docker Container for Penetration Testing
 - [ ] Setup Docker Hub Repo 
 - [ ] Setup up Module build for Each Section
 - [ ] Add a fullset of security tools for each Section
+- [ ] Map All Tools to MITRE-Attack Framework (Goal is to have a large coverage then any other Docker Container or OS)
 - [ ] Develop Custom Distro, which will be called `SneakAttack OS`
 
 ## Tools to Add
