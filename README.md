@@ -68,6 +68,40 @@ Docker Container for Penetration Testing
 - [ ] 
 
 
+<!--
+  afl,
+  doona,
+  thc-ipv6,
+  dhcpig,
+  enumiax,
+  gvm,
+  iaxflood,
+  inviteflood,
+  dsniff,
+  ohrwurm,
+  protos-sip,
+  rtpbreak,
+  rtpflood,
+  rtpinsertsound,
+  rtpmixsound,
+  sipp,
+  slowhttptest,
+  spike,
+  sipvicious,
+  thc-ssl-dos,
+  unix-privesc-check,
+  voiphopper,
+  yersinia,
+  siparmyknife,
+  sctpscan,
+  cisco-ocs,
+  cisco-torch,
+  copy-router-config,
+-->
+
+
+
+
 ### Web Application
 > Pentest tool list for web analysis Discovering information and flaws in web applications layer.
 
@@ -75,6 +109,30 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 - [ ] 
+
+
+<!--
+  burpsuite,
+  commix,
+  davtest,
+  dirb,
+  dirbuster,
+  gobuster,
+  joomscan,
+  jsql-injection,
+  nikto,
+  padbuster,
+  skipfish,
+  wfuzz,
+  whatweb,
+  wig,
+  wpscan,
+  xsser,
+  zaproxy,
+  wafw00f,
+  parsero,
+-->
+
 
 
 ### Exploitation
@@ -86,6 +144,29 @@ Docker Container for Penetration Testing
 - [ ] 
 
 
+<!--
+  armitage,
+  beef-xss,
+  commix,
+  thc-ipv6,
+  jsql-injection,
+  king-phisher,
+  mdbtools,
+  metasploit-framework,
+  oscanner,
+  pompem,
+  set,
+  shellnoob,
+  sidguesser,
+  sqlmap,
+  websploit,
+  unicorn-magic,
+  backdoor-factory,
+-->
+
+
+
+
 ### Maintain Access
 > A collection of tools used for maintaining access once a connection has been established.
 
@@ -93,6 +174,32 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 - [ ] 
+
+
+<!--
+  ncat-w32,
+  powercat,
+  dns2tcp,
+  hyperion,
+  iodine,
+  laudanum,
+  nishang,
+  proxychains,
+  proxytunnel,
+  ptunnel,
+  pwnat,
+  sbd,
+  shellter,
+  socat,
+  sslh,
+  stunnel4,
+  udptunnel,
+  webacoo,
+  weevely,
+  windows-binaries,
+  webshells,
+-->
+
 
 
 ### Post Exploitation
@@ -104,6 +211,17 @@ Docker Container for Penetration Testing
 - [ ] 
 
 
+<!--
+  mimikatz,
+  powersploit,
+  passing-the-hash,
+  wce,
+  xspy,
+  lynis,
+  linux-exploit-suggester
+-->
+
+
 ### Passwork Attack
 > A collection of tools used for password attacks such as creating wordlists, brute force.
 
@@ -112,6 +230,45 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 
+
+
+
+<!--
+  brutespray,
+  cewl,
+  changeme,
+  chntpw,
+  cmospwd,
+  crackle,
+  crunch,
+  fcrackzip,
+  hashcat,
+  hashid,
+  hydra,
+  john,
+  johnny,
+  pack,
+  medusa,
+  onesixtyone,
+  ophcrack-cli,
+  ophcrack,
+  pdfcrack,
+  pipal,
+  pixiewps,
+  rainbowcrack,
+  rarcrack,
+  rcracki-mt,
+  rsmangler,
+  samdump2,
+  sipcrack,
+  sucrack,
+  thc-pptp-bruter,
+  truecrack,
+  twofi,
+  wordlists,
+  device-pharmer,
+  statsprocessor,
+-->
 
 ### Wireless
 > A collection of tools used for wireless audits, attacks and exploits.
@@ -122,6 +279,44 @@ Docker Container for Penetration Testing
 - [ ] 
 
 
+
+<!--
+  aircrack-ng,
+  airgeddon,
+  asleap,
+  bluelog,
+  blueranger,
+  bluesnarfer,
+  btscanner,
+  bluez-hcidump,
+  bully,
+  cowpatty,
+  crackle,
+  eapmd5pass,
+  fern-wifi-cracker,
+  hackrf,
+  inspectrum,
+  king-phisher,
+  mdk3,
+  mfcuk,
+  mfoc,
+  mfterm,
+  libfreefare-bin,
+  libnfc-bin,
+  pixiewps,
+  reaver,
+  redfang,
+  rfcat,
+  rtlsdr-scanner,
+  ubertooth,
+  wifi-honey,
+  wifite,
+  yersinia,
+
+-->
+
+
+
 ### Network Sniffing
 > A collection of tools used for monitoring and sniffing the data flowing over computer networks. 
 
@@ -129,6 +324,35 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 - [ ] 
+
+<!--
+  bettercap,
+  chaosreader,
+  darkstat,
+  dnschef,
+  dsniff,
+  sniffjoke,
+  tcpflow,
+  driftnet,
+  etherape,
+  ettercap-graphical,
+  thc-ipv6,
+  fiked,
+  hamster-sidejack,
+  hexinject,
+  isr-evilgrade,
+  mitmproxy,
+  netsniff-ng,
+  rebind,
+  responder,
+  sslsniff,
+  sslsplit,
+  tcpreplay,
+  wifi-honey,
+  wireshark,
+  yersinia,
+-->
+
 
 
 ### Forensic
@@ -139,6 +363,54 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 
+<!--
+  afflib-tools,
+  dumpzilla,
+  extundelete,
+  rifiuti,
+  ewf-tools,
+  cabextract,
+  autopsy,
+  binwalk,
+  sleuthkit,
+  dc3dd,
+  dcfldd,
+  ddrescue,
+  dex2jar,
+  ewf-tools,
+  extundelete,
+  foremost,
+  galleta,
+  gtkhash,
+  guymager,
+  hashdeep,
+  magicrescue,
+  missidentify,
+  pasco,
+  pdf-parser,
+  pdfid,
+  pev,
+  recoverjpeg,
+  reglookup,
+  regripper,
+  rifiuti,
+  rifiuti2,
+  safecopy,
+  scalpel,
+  scrounge-ntfs,
+  vinetto,
+  xplico,
+  inetsim,
+  forensic-artifacts,
+  galleta,
+  gpp-decrypt,
+  guymager,
+  smartmontools,
+  yara,
+
+-->
+
+
 
 ### Reverse Engineering
 > A collection of tools used for reverse engineering software and binaries
@@ -147,6 +419,17 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 - [ ] 
+
+<!--
+  clang,
+  dex2jar,
+  edb-debugger,
+  gdb,
+  javasnoop,
+  rizin,
+  rizin-cutter,
+  smali,
+-->
 
 
 ### Reporting
@@ -157,6 +440,13 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 
+
+<!--
+  eyewitness,
+  faraday-cli,
+  faraday,
+-->
+
 ### Cloud
 > This of all the headless tools that can be useful on a remotely controlled cloud environment.
 
@@ -165,5 +455,99 @@ Docker Container for Penetration Testing
 - [ ] 
 - [ ] 
 
+<!--
+ nginx,
+ arping,
+ crunch,
+ davtest,
+ dc3dd,
+ dhcpig,
+ dirb,
+ dirbuster,
+ dmitry,
+ dns2tcp,
+ dnschef,
+ dnsenum,
+ dnsmap,
+ dos2unix,
+ eapmd5pass,
+ enumiax,
+ ethtool,
+ fcrackzip,
+ fping,
+ hashcat,
+ hping3,
+ iaxflood,
+ impacket-scripts,
+ iodine,
+ isr-evilgrade,
+ john,
+ joomscan,
+ laudanum,
+ links,
+ lynis,
+ maskprocessor,
+ medusa,
+ metasploit-framework,
+ miredo,
+ miredo-server,
+ mitmproxy,
+ nasm,
+ nbtscan,
+ ncrack,
+ netdiscover,
+ nikto,
+ nmap,
+ openssh-server,
+ ophcrack-cli,
+ oscanner,
+ p0f,
+ powersploit,
+ proxychains,
+ proxytunnel,
+ ptunnel,
+ pwnat,
+ crackmapexec,
+ rainbowcrack,
+ reaver,
+ sbd,
+ set,
+ sfuzz,
+ siege,
+ skipfish,
+ smbclient,
+ smbmap,
+ smtp-user-enum,
+ snmpcheck,
+ socat,
+ spiderfoot,
+ sqlmap,
+ ssldump,
+ sslscan,
+ sslsniff,
+ tcpdump,
+ t50,
+ thc-ipv6,
+ thc-ssl-dos,
+ theharvester,
+ traceroute,
+ whois,
+ truecrack,
+ udptunnel,
+ unix-privesc-check,
+ webacoo,
+ webshells,
+ websploit,
+ weevely,
+ whatweb,
+ etherwake,
+ wpscan,
+ xprobe,
+ xsser,
+ yersinia,
+ beef-xss [amd64 i386],
+ saidar,
+ hexinject
 
+-->
 
