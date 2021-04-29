@@ -1,6 +1,6 @@
 This project is/will be a indirectly connected project of [Cybersecurity Dockerfiles](https://github.com/austinsonger/cybersecurity-dockerfiles)
 
-# SneakAttack
+![SneakAttack](/img/SneakAttack-Banner.png)
 
 Docker Container for Penetration Testing
 
