@@ -22,9 +22,11 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 EOF
 
+sudo apt update -y
+
 sudo apt-get install -y python3 python-yara python-paramiko python-distorm3 python-beautifulsoup python-pygresql python-pil python-pycurl python-magic python-pyinotify python-configobj python-pexpect python-msgpack python-requests python-pefile python-ipy python-openssl python-pypcap python-dns python-dnspython python-crypto python-cryptography python-dev python-twisted python-nfqueue python-scapy python-capstone python-setuptools python-urllib3 python3-pip php7.2-cli php7.2-curl python-notify python-impacket golang-go
 
-
+sudo apt upgrade -y
 
 
 
