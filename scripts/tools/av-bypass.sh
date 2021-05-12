@@ -2,6 +2,7 @@
 #
 # Av Bypass
 #
+set -Eeuo pipefail
 
 ## BACKDOOR FACTORY
 

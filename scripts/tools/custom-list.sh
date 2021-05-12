@@ -2,4 +2,5 @@
 #
 # Custom Lists
 #
+set -Eeuo pipefail
 

@@ -2,5 +2,6 @@
 #
 # Code Audit
 #
+set -Eeuo pipefail
 
 
