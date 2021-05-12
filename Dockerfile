@@ -1,29 +1,20 @@
 FROM ubuntu:18.04
-
 MAINTAINER Austin Songer (austin@songer.pro)
 ARG DEBIAN_FRONTEND=noninteractive
-
-
-RUN apt-get update \
- && apt-get install -y sudo
-
+############################################
+RUN apt-get update && apt-get install -y sudo
 RUN adduser --disabled-password --gecos '' sneakattack
 RUN adduser sneakattack sudo
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
-
 USER sneakattack
-
-
+############################################
 # .bashrc
 COPY /configs/.bashrc /root/.bashrc
-
 # prep.sh
 COPY /scripts/prep.sh /opt/prep.sh
 RUN sudo chmod +x  /opt/*.sh
 # RUN bash chmod +x /opt/prep.sh
 RUN bash -c /opt/prep.sh
-
-
 RUN mkdir /opt/tools
 RUN sudo chmod +x /opt/tools/*.sh
 #============================================================
