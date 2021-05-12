@@ -17,6 +17,10 @@ RUN sudo chmod +x  /opt/*.sh
 RUN bash -c /opt/prep.sh
 RUN mkdir /opt/tools
 RUN sudo chmod +x /opt/tools/*.sh
+
+# Bash Session Logging
+COPY /scripts/bashlogging.sh /opt/bashlogging.sh
+RUN bash -c /opt/bashlogging.sh
 #============================================================
 # AV Bypass
 COPY /scripts/tools/av-bypass.sh /opt/tools/av-bypass.sh
