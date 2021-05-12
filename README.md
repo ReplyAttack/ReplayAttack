@@ -6,6 +6,13 @@ Docker Container for Penetration Testing
  - Will Include a lot of tools that are not known, but efficient. 
 
 
+## build
+
+```
+docker build -t sneakattack .
+```
+
+
 ## To Do
 - [ ] Add 5 tools for each section Before First Image
 - [ ] Setup Docker Hub Repo 
