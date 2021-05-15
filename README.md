@@ -1,4 +1,4 @@
-This project is/will be a indirectly connected project of [Cybersecurity Dockerfiles](https://github.com/austinsonger/cybersecurity-dockerfiles)
+This project is/will be a indirectly connected project of [SneakAttack Dockerfiles](https://github.com/SneakAttackOS/SneakAttack-Dockerfiles)
 
 ![SneakAttack](/img/SneakAttack-Banner.png)
 
